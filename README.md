@@ -1,4 +1,4 @@
-# 🚀 Mary Njiru | AI & Full-Stack Portfolio
+# 🚀 Mary Njiru | ML & Full-Stack Portfolio
 
 Welcome to my portfolio! This project is a comprehensive showcase of my dual expertise in **Machine Learning** and **Modern Web Development**. It combines a sleek, interactive frontend with data-driven insights.
 
