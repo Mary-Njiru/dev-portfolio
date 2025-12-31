@@ -1,72 +1,54 @@
-🚀 AI-Driven Full-Stack Portfolio
-Welcome to my professional portfolio! This project is a comprehensive showcase of my dual expertise in Machine Learning/Data Science and Modern Full-Stack Development. It features interactive 3D elements, smooth UI transitions, and integrated data-driven insights.
+# 🚀 Mary Njiru | AI & Full-Stack Portfolio
 
-🛠️ Tech Stack
-Frontend & UI/UX
-React.js & Next.js – Hybrid architecture for high-performance rendering and SEO.
+Welcome to my portfolio! This project is a comprehensive showcase of my dual expertise in **Machine Learning** and **Modern Web Development**. It combines a sleek, interactive frontend with data-driven insights.
 
-Tailwind CSS – Utility-first styling for a sleek, responsive dark-mode aesthetic.
+---
 
-Framer Motion – Dynamic animations and entrance effects.
+## 🛠️ Technical Ecosystem
 
-EmailJS – Secure, serverless contact form integration.
+### **🤖 Machine Learning & Data Science**
+* **Core Language:** Python
+* **Data Engineering:** Pandas, NumPy (Data cleaning, transformation, and analysis)
+* **Visualization:** Matplotlib, Seaborn (Exploratory Data Analysis & Insight display)
+* **ML Frameworks:** Scikit-learn, TensorFlow / PyTorch
+* **Statistical Analysis:** Handling outliers, feature engineering, and data normalization.
 
-Vite – Optimized build tool for the React frontend components.
+### **💻 Full-Stack Development**
+* **Frameworks:** React.js, Next.js
+* **Build Tools:** Vite
+* **Styling:** Tailwind CSS (Responsive & Modern UI)
+* **Animations:** Framer Motion (Smooth UI transitions)
+* **API/Services:** EmailJS (Serverless contact form integration)
 
-Machine Learning & Data Science
-Python – Core language for model development and data processing.
+---
 
-Scikit-learn / TensorFlow – (Customize based on your specific libraries) For building and deploying predictive models.
+## ✨ Key Project Features
 
-Pandas & NumPy – High-performance data cleaning and manipulation.
+- **Interactive 3D Graphics:** Immersive UI elements that provide a unique user experience.
+- **ML Insight Dashboard:** Visualization of complex datasets using Matplotlib integrated into the web flow.
+- **Automated Contact System:** A professionally formatted email system for direct inquiries.
+- **High Performance:** Optimized for speed and SEO using Next.js and Vite.
+- **Responsive Architecture:** Fully functional across mobile, tablet, and desktop.
 
-Matplotlib & Seaborn – Professional data visualization and insight display.
+---
 
+## ⚙️ Quick Start
 
-Getty Images
-✨ Key Features
-Integrated ML Showcase: Dedicated sections displaying data cleaning workflows and model performance metrics.
+If you wish to run this project locally, follow these steps:
 
-Dynamic Data Visualizations: Real-time Matplotlib-generated charts showing data trends directly in the UI.
+### 1. Clone the Repository
+git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+cd YOUR_REPO_NAME
 
-Interactive 3D Elements: Immersive 3D canvases (powered by Three.js) for an engaging user journey.
+### 2.  Setup Environment Variables
+Create a file named .env in the root directory. This is crucial for the EmailJS contact form to function. Add your credentials:
+- **VITE_APP_EMAILJS_SERVICE_ID=your_service_id_here
+- **VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id_here
+- **VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key_here
 
-Optimized Contact System: A professional contact form using EmailJS with custom HTML email templates.
-
-Responsive AI Insights: Clean, mobile-first design ensuring a seamless experience across all devices.
-
-📊 Machine Learning Pipeline
-Data Cleaning: Utilizing Python scripts to handle missing values, outliers, and feature engineering.
-
-Visualization: Using Matplotlib to generate exploratory data analysis (EDA) charts.
-
-Modeling: Implementing supervised/unsupervised learning algorithms to solve real-world problems.
-
-Deployment: Presenting model results through a clean React/Next.js interface.
-
-⚙️ Setup & Installation
-Clone the repository:
-
-Bash
-
-git clone https://github.com/yourusername/portfolio-name.git
-cd portfolio-name
-Install Frontend Dependencies:
-
-Bash
-
-npm install
-Set Up Environment Variables: Create a .env file for your EmailJS keys:
-
-Plaintext
-
-VITE_APP_EMAILJS_SERVICE_ID=your_id
-VITE_APP_EMAILJS_TEMPLATE_ID=your_id
-VITE_APP_EMAILJS_PUBLIC_KEY=your_key
-Run Development Server:
-
-Bash
-
-npm run dev
-👤 Contact Me
-Mary Njiru Machine Learning Engineer & Full-Stack Developer [LinkedIn Profile] | [Your Portfolio Link]
+### 3. Install Dependencies
+- **npm install
+- - **npm run dev
+1. **Clone the Repo**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
