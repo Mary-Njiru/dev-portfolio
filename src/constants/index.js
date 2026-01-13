@@ -32,7 +32,6 @@ import {
 
 // Import logos separately
 import digitax from "../assets/company/digitax logo.png";
-import lipalater from "../assets/company/lipalater.png";
 
 
 
@@ -159,24 +158,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2025 - June 2025",
     points: [
-      "Developing and maintaining web applications using PERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Polyglot Database Experience: Proficient in Relational (SQL) environments using DBeaver.",
-      "End-to-End Machine Learning: Skilled in the full pipeline—from automated data cleaning to predictive modeling and deployment."
-    ],
-  },
-  {
-    title: "Software Developer-Intern",
-    company_name: "LipaLater",
-    icon: lipalater, 
-    iconBg: "#383E56",
-    date: "July 2025 - Dec 2025",
-    points: [
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed responsive user interfaces using Next.js and JavaScript, contributing to the front-end of DigiTax's tax management platform and improving user experience for over 1,000 active users.",
+      "Collaborated with the development team to integrate APIs, ensuring seamless data flow between front-end and back-end systems, which reduced load times by 20%.",
+      "Conducted thorough testing of product features, including unit and integration tests, identifying and fixing 15+ bugs that enhanced product stability and reliability.",
+      "Participated in agile sprints and code reviews, gaining hands-on experience in version control with Git and fostering team collaboration in a fast-paced startup environment.",
+      "Successfully contributed to a key product update that streamlined tax filing processes, resulting in positive feedback from beta testers and a 10% increase in user engagement metrics.",
     ],
   },
 ];
