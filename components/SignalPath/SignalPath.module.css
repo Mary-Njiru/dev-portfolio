@@ -1,0 +1,91 @@
+.section {
+  padding: 120px 0;
+  background: var(--color-mist-softer);
+}
+
+.sectionHead {
+  max-width: 640px;
+  margin-bottom: 64px;
+}
+
+.signalPath {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  padding-top: 20px;
+}
+
+.signalLine {
+  position: absolute;
+  top: 29px;
+  left: 6%;
+  right: 6%;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-ocean) 0 8px,
+    transparent 8px 14px
+  );
+}
+
+.signalNode {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.nodeDot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-white);
+  border: 3px solid var(--color-ocean);
+  margin-bottom: 22px;
+  position: relative;
+  z-index: 1;
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.signalNode:hover .nodeDot {
+  background: var(--color-ocean);
+  transform: scale(1.15);
+}
+
+.nodeYear {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--color-ocean);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.nodeTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+
+.nodeDesc {
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: #3c4f74;
+  max-width: 26ch;
+}
+
+@media (max-width: 860px) {
+  .signalPath {
+    flex-direction: column;
+    gap: 36px;
+  }
+  .signalLine {
+    display: none;
+  }
+}

@@ -1,0 +1,75 @@
+.btn {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid var(--color-navy);
+  cursor: pointer;
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease,
+    background 0.12s ease;
+}
+
+.btn:active {
+  transform: translate(5px, 5px);
+  box-shadow: 0 0 0 var(--color-navy);
+}
+
+/* Variants */
+.primary {
+  background: var(--color-ocean);
+  color: var(--color-white);
+}
+.primary:hover {
+  background: var(--color-ocean-dark);
+}
+
+.ghost {
+  background: var(--color-white);
+  color: var(--color-navy);
+}
+.ghost:hover {
+  background: var(--color-mist-soft);
+}
+
+.inverse {
+  background: var(--color-mist);
+  color: var(--color-navy);
+  border-color: var(--color-white);
+}
+.inverse:hover {
+  background: var(--color-white);
+}
+
+/* Sizes (also control the offset-shadow scale) */
+.default {
+  font-size: 14px;
+  padding: 14px 24px;
+  box-shadow: 5px 5px 0 var(--color-navy);
+}
+.default:hover {
+  box-shadow: 3px 3px 0 var(--color-navy);
+  transform: translate(2px, 2px);
+}
+
+.small {
+  font-size: 12px;
+  padding: 10px 18px;
+  box-shadow: 4px 4px 0 var(--color-navy);
+}
+.small:hover {
+  box-shadow: 2px 2px 0 var(--color-navy);
+  transform: translate(2px, 2px);
+}
+
+/* Inverse sits on a dark background — shadow needs to stay light to read */
+.inverse.default {
+  box-shadow: 5px 5px 0 var(--color-mist-soft);
+}
+.inverse.default:hover {
+  box-shadow: 3px 3px 0 var(--color-mist-soft);
+}
